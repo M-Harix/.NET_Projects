@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Git\\.NET_Projects\\04. My Favourite SuperHeros\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EF770EF8-EED4-4047-B062-A1CC7AF1F5B1}|MyFavouriteSuperHeros\\MyFavouriteSuperHeros.csproj|e:\\git\\.net_projects\\04. my favourite superheros\\myfavouritesuperheros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF770EF8-EED4-4047-B062-A1CC7AF1F5B1}|MyFavouriteSuperHeros\\MyFavouriteSuperHeros.csproj|solutionrelative:myfavouritesuperheros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Git\\.NET_Projects\\04. My Favourite SuperHeros\\MyFavouriteSuperHeros\\Program.cs",
+              "RelativeDocumentMoniker": "MyFavouriteSuperHeros\\Program.cs",
+              "ToolTip": "E:\\Git\\.NET_Projects\\04. My Favourite SuperHeros\\MyFavouriteSuperHeros\\Program.cs",
+              "RelativeToolTip": "MyFavouriteSuperHeros\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T22:22:59.565Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

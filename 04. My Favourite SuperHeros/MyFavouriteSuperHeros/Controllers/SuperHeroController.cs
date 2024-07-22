@@ -21,9 +21,17 @@ namespace MyfavouriteSuperHeros.Controllers
             return await _superHeroService.GetAllSuperHeros();
         }
         [HttpGet("{id}")]
-        public async Task<SuperHeroViewModel> GetSuperHero(int id)
+        public async Task<ActionResult<SuperHeroViewModel>> GetSuperHero(int id)
         {
-            return await _superHeroService.GetOneSuperHero(id);
+            var result = await _superHeroService.GetOneSuperHero(id);
+            if(result ==  null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                return Ok(result);
+            }
         }
         [HttpPut("{id}")]
         public async Task<ActionResult<SuperHeroViewModel>> PutSuperHero(int id, SuperHeroViewModel superHeroViewModel)
@@ -31,7 +39,7 @@ namespace MyfavouriteSuperHeros.Controllers
             var result = await _superHeroService.PutSuperHero(id, superHeroViewModel);
             if(result)
             {
-                return Ok("Successful");
+                return Ok();
             }
             else
             {
@@ -48,7 +56,7 @@ namespace MyfavouriteSuperHeros.Controllers
         {
             if (await _superHeroService.DeleteHeroAsync(id))
             {
-                return Ok("Deleted");
+                return Ok();
             }
             else
             {

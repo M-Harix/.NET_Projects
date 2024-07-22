@@ -21,15 +21,22 @@ namespace MyfavouriteSuperHeros.Services
         public async Task<SuperHeroViewModel> GetOneSuperHero(int id)
         {
             var result = await _DBContext.SuperHero.FindAsync(id);
-            var r = new SuperHeroViewModel
+            if(result == null)
             {
-                Id = result.Id,
-                Name= result.Name,
-                FirstName = result.FirstName,
-                LastName = result.LastName,
-                Place = result.Place
-            };
-            return r;
+                return null;
+            }
+            else
+            {
+                var r = new SuperHeroViewModel
+                {
+                    Id = result.Id,
+                    Name = result.Name,
+                    FirstName = result.FirstName,
+                    LastName = result.LastName,
+                    Place = result.Place
+                };
+                return r;
+            }
         }
         
         public async Task<bool> PutSuperHero(int id, SuperHeroViewModel superHeroViewModel)

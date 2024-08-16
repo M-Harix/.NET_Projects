@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Git\\.NET_Projects\\03 E-Commerce Store\\",
+  "WorkspaceRootPath": "D:\\.NET_Projects\\03 E-Commerce Store\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70117930-987A-4F33-B678-8FFFE0E942F1}|E-CommerceStore\\E-CommerceStore.csproj|e:\\git\\.net_projects\\03 e-commerce store\\e-commercestore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{70117930-987A-4F33-B678-8FFFE0E942F1}|E-CommerceStore\\E-CommerceStore.csproj|d:\\.net_projects\\03 e-commerce store\\e-commercestore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{70117930-987A-4F33-B678-8FFFE0E942F1}|E-CommerceStore\\E-CommerceStore.csproj|solutionrelative:e-commercestore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70117930-987A-4F33-B678-8FFFE0E942F1}|E-CommerceStore\\E-CommerceStore.csproj|d:\\.net_projects\\03 e-commerce store\\e-commercestore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70117930-987A-4F33-B678-8FFFE0E942F1}|E-CommerceStore\\E-CommerceStore.csproj|solutionrelative:e-commercestore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,10 +23,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\.NET_Projects\\03 E-Commerce Store\\E-CommerceStore\\appsettings.json",
+              "RelativeDocumentMoniker": "E-CommerceStore\\appsettings.json",
+              "ToolTip": "D:\\.NET_Projects\\03 E-Commerce Store\\E-CommerceStore\\appsettings.json",
+              "RelativeToolTip": "E-CommerceStore\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-16T06:17:46.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Git\\.NET_Projects\\03 E-Commerce Store\\E-CommerceStore\\Program.cs",
+              "DocumentMoniker": "D:\\.NET_Projects\\03 E-Commerce Store\\E-CommerceStore\\Program.cs",
               "RelativeDocumentMoniker": "E-CommerceStore\\Program.cs",
-              "ToolTip": "E:\\Git\\.NET_Projects\\03 E-Commerce Store\\E-CommerceStore\\Program.cs",
+              "ToolTip": "D:\\.NET_Projects\\03 E-Commerce Store\\E-CommerceStore\\Program.cs",
               "RelativeToolTip": "E-CommerceStore\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
